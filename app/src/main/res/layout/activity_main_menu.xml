@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#050505" >
+
+    <TextView
+        android:text="Choose an Option: "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/frequency"
+        android:layout_width="200dp"
+        android:layout_height="75sp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:background="#0048ff"
+        android:onClick="goToFrequency"
+        android:text="Frequency"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/distances"
+        android:layout_width="200dp"
+        android:layout_height="75sp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:background="#0048ff"
+        android:onClick="goToLength"
+        android:text="Length"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/datarate"
+        android:layout_width="200dp"
+        android:layout_height="75sp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:background="#0048ff"
+        android:onClick="goToDataRate"
+        android:text="Data Transfer Rate"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/temperature"
+        android:layout_width="200dp"
+        android:layout_height="75sp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:background="#0048ff"
+        android:onClick="goToTemp"
+        android:text="Temperature"
+        android:textColor="@android:color/white" />
+
+
+</LinearLayout>

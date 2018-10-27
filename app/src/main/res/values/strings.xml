@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">The Unit Converter App</string>
+    <string-array name="unitsdistance">
+        <item>Inch</item>
+        <item>Centimetre</item>
+        <item>Foot</item>
+        <item>Yard</item>
+        <item>Metre</item>
+        <item>Mile</item>
+        <item>Kilometre</item>
+        <item>NauticalMile</item>
+        <item>Millimetre</item>
+        <item>Micrometre</item>
+        <item>Nanometre</item>
+    </string-array>
+
+    <string-array name="frequency">
+        <item>Hertz</item>
+        <item>Kilohertz</item>
+        <item>Megahertz</item>
+        <item>Gigahertz</item>
+    </string-array>
+
+    <string-array name="datarate">
+        <item>Bit_Per_Second</item>
+        <item>Kilobit_Per_Second</item>
+        <item>Megabit_Per_Second</item>
+        <item>Gigabit_Per_Second</item>
+        <item>Terabit_Per_Second</item>
+    </string-array>
+
+
+</resources>

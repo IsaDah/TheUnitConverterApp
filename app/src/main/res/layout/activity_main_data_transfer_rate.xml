@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#050505" >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Unit From:"
+            android:textColor="@android:color/white" />
+
+        <Spinner
+            android:id="@+id/spinner_from"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:drawSelectorOnTop="true"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/editText_from"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="Unit To:"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="20dp"/>
+
+        <Spinner
+            android:id="@+id/spinner_to"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:drawSelectorOnTop="true"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/editText_to"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:cursorVisible="false"
+            android:ems="10"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:inputType="numberDecimal"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/button_convert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="#0048ff"
+            android:onClick="convertDataRate"
+            android:text="Convert"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="#0048ff"
+            android:onClick="goBackMainMenu"
+            android:text="Back"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
